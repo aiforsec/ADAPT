@@ -5,7 +5,7 @@ https://polyformproject.org/licenses/noncommercial/1.0.0
 Copyright © 2025
 Md Tanvirul Alam, Aritran Piplai, and Nidhi Rastogi
 
-BibTeX for academic and non-commercial Reseacrch Citation:
+BibTeX for academic and non-commercial Research Citation:
 @inproceedings{alam2025adapt,
   title     = {{ADAPT: A Pseudo-labeling Approach to Combat Concept Drift in Malware Detection}},
   author    = {Alam, Md Tanvirul and Piplai, Aritran and Rastogi, Nidhi},
@@ -14,19 +14,17 @@ BibTeX for academic and non-commercial Reseacrch Citation:
   url       = {https://github.com/aiforsec/ADAPT/}
 }
 
-Permitted • You may view, modify, and share the **code** for any non-commercial
-research, academic, or teaching purpose **provided you include the BibTeX
-citation above in papers, reports, code forks, and any public artefacts.**
+Permitted 
+• You may view, modify, and share the code for any non-commercial research, academic, or teaching purpose, provided you include the BibTeX citation above in papers, reports, code forks, and any public artefacts.
 
-Forbidden • Any commercial, for-profit, or production use (including internal
-business workflows, SaaS, or sold software) is prohibited **without a separate
-written licence** from the copyright holders.
+Forbidden 
+• Any commercial, for-profit, or production use (including internal business workflows, SaaS, or sold software) is prohibited without a separate written licence from the copyright holders.
 
-Dataset • This licence covers **only the source code**. Datasets or trained
-models are released under their own terms (see DATA-LICENSE or README).
+Dataset 
+• This licence covers only the source code. Datasets or trained models are released under their terms (see DATA-LICENSE or README).
 
-Warranty • The code is provided “as is”, without warranty of any kind. The
-authors are not liable for any damages arising from its use.
+Warranty 
+• The code is provided “as is”, without warranty of any kind. The authors are not liable for any damages arising from the use of this material.
 
-Full Legal Terms • By using the code you agree to the complete PolyForm
-Noncommercial 1.0.0 terms at the URL above.
+Full Legal Terms 
+• By using the code you agree to the complete PolyForm Noncommercial 1.0.0 terms at the URL above.
