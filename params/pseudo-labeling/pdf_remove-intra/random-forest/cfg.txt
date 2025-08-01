@@ -1,0 +1,31 @@
+DATASET:
+  CACHE: true
+  DATA_DIR: data/pdf
+  DUPLICATES: remove-intra
+  FEATURE: pdf
+  IS_PYTORCH: false
+  NAME: pdf
+  NUM_FEATURE: 950
+  NUM_WORKERS: 2
+  SOURCE: pdf
+  STANDARDIZE: true
+  TEST_FILE: test.npz
+  TRAIN_FILE: train.npz
+  TRANSFORM: null
+  VAL_BATCH_SIZE: 64
+  VAL_FILE: val.npz
+EXPERIMENT:
+  ACTIVE_LEARNING_SAMPLES: 50
+  MERGE_VAL_DATA_FOR_TEST: true
+  MODEL_NAME: random-forest
+  NUM_CLASS: 2
+  NUM_HPO_RUNS: 1
+  NUM_TEST_RUNS: 5
+  OUT_DIR: output-pseudo-label
+  PARAMS: null
+  PSEUDO_LABELING_SOURCE_FREE: false
+  SEED: 113
+  TASK: malware-detection
+  VALIDATION_MODE: true
+MODEL:
+  MODEL_NAME: random-forest

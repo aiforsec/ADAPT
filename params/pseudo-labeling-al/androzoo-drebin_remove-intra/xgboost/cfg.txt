@@ -1,0 +1,34 @@
+DATASET:
+  CACHE: true
+  DATA_DIR: data/androzoo-drebin
+  DUPLICATES: remove-intra
+  FEATURE: drebin
+  IS_PYTORCH: false
+  NAME: androzoo-drebin
+  NUM_FEATURE: 16978
+  NUM_WORKERS: 2
+  SOURCE: android
+  STANDARDIZE: false
+  TEST_FILE: test.npz
+  TRAIN_FILE: train.npz
+  TRANSFORM: null
+  VAL_BATCH_SIZE: 64
+  VAL_FILE: val.npz
+EXPERIMENT:
+  ACTIVE_LEARNING_SAMPLES: 50
+  MERGE_VAL_DATA_FOR_TEST: true
+  MODEL_NAME: xgboost
+  NUM_CLASS: 2
+  NUM_HPO_RUNS: 1
+  NUM_TEST_RUNS: 5
+  OUT_DIR: output-pseudo-label-al
+  PARAMS: null
+  PSEUDO_LABELING_SOURCE_FREE: false
+  SEED: 11
+  TASK: malware-detection
+  VALIDATION_MODE: true
+MODEL:
+  MODEL_NAME: xgboost
+  XGBOOST:
+    OBJECTIVE: binary
+    USE_GPU: false

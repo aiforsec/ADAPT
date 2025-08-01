@@ -1,0 +1,8 @@
+torch==2.6.0
+numpy==1.26.4
+pytorch-metric-learning==2.6.0
+xgboost==2.0.3
+scikit-learn==1.6.1
+scipy==1.13.1
+river==0.21.2
+yacs==0.1.8

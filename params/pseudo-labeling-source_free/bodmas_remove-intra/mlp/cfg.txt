@@ -1,0 +1,33 @@
+DATASET:
+  CACHE: true
+  DATA_DIR: data/bodmas
+  DUPLICATES: remove-intra
+  FEATURE: ember
+  IS_PYTORCH: false
+  NAME: bodmas
+  NUM_FEATURE: 2381
+  NUM_WORKERS: 2
+  SOURCE: windows
+  STANDARDIZE: true
+  TEST_FILE: test.npz
+  TRAIN_FILE: train.npz
+  TRANSFORM: null
+  VAL_BATCH_SIZE: 64
+  VAL_FILE: val.npz
+EXPERIMENT:
+  ACTIVE_LEARNING_SAMPLES: 50
+  MERGE_VAL_DATA_FOR_TEST: true
+  MODEL_NAME: mlp
+  NUM_CLASS: 2
+  NUM_HPO_RUNS: 1
+  NUM_TEST_RUNS: 5
+  OUT_DIR: output-pseudo-label-source_free
+  PARAMS: null
+  PSEUDO_LABELING_SOURCE_FREE: true
+  SEED: 62
+  TASK: malware-detection
+  VALIDATION_MODE: true
+MODEL:
+  MLP:
+    USE_GPU: true
+  MODEL_NAME: mlp
