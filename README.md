@@ -1,5 +1,7 @@
 # ADAPT: A Pseudo-labeling Approach to Combat Concept Drift in Malware Detection
 
+[Paper on arXiv](https://arxiv.org/abs/2507.08597)
+
 Implementation of the ADAPT framework.
 Accepted at the
 *Proceedings of the 28th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2025)*
